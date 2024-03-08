@@ -1,12 +1,14 @@
-export default function App() {
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
-  const nome = "João";
-  const sobreNome = "Santos";
+import "./globals.css";
+
+export default function App() {
 
   return(
     <div>
-        <h1>Hello World</h1>
-        <p>Desenvolvido por: {nome}</p>
+        <Header/>
+        <Footer/>
     </div>  
   );
 
