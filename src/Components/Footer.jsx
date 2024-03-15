@@ -6,5 +6,6 @@ export default function Footer(){
         <footer>
             <h1>desenvolvido por: {nome} </h1>
         </footer>
-    )
+    );
+
 }
